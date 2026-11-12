@@ -100,19 +100,26 @@ body {
   border-radius: 99px;
 }
 
-.grid-top {
-  gap: 300px;
+.body-table {
+  width: 80%;
+  margin: 0;
+  padding: 0;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.grid-led {
+thead {
+  width: 80%;
+  margin: 0;
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
-.Python {
-  gap: 320px;
-  display: flex;
-  flex-direction: row;
+th,
+td {
+  padding: 15px 20px;
+  text-align: left;
+  border: 1px solid #bbcabf99;
 }
